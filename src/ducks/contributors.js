@@ -1,4 +1,8 @@
-import { createAsyncAction, fetchAPI } from './utils';
+import { createAsyncAction } from './utils';
+
+export function* fetchAPI() {
+    
+}
 
 /**
  * ACTIONS
@@ -9,7 +13,7 @@ import { createAsyncAction, fetchAPI } from './utils';
  */
 
 export default (state = {}, action) => {
-
+  return state;
 }
 
 /**

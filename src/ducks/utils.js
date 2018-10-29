@@ -19,11 +19,3 @@ export const createAsyncAction = (type, ...rest) => {
     );
     return actionCreator;
   };
-  
-export const API_URL = process.env.REACT_APP_API_URL;
-
-export function* fetchAPI(api, method) {
-  const response = fetch({
-    
-  })
-}

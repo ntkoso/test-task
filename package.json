@@ -10,6 +10,7 @@
     "recompose": "^0.30.0",
     "redux": "^4.0.1",
     "redux-actions": "^2.6.3",
+    "redux-saga": "^0.16.2",
     "styled-components": "^4.0.2"
   },
   "scripts": {
