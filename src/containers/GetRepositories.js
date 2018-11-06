@@ -1,8 +1,8 @@
 import { connect } from 'react-redux';
 import toRenderProps from 'recompose/toRenderProps';
 
-const withGetContributors = connect(
+const withGetRepositories = connect(
   // mapStateToProps
 );
 
-export default toRenderProps(withGetContributors);
+export default toRenderProps(withGetRepositories);

@@ -1,16 +1,16 @@
 import { combineReducers, createStore, applyMiddleware } from "redux";
 import createSagaMiddleware from 'redux-saga';
 import { all } from 'redux-saga/effects';
-import contributors, { saga as contributorsSaga } from './ducks/contributors';
+import repositories, { saga as repositoriesSaga } from './ducks/repositories';
 
 function* rootSaga() {
   yield all([
-    contributorsSaga(),
+    repositoriesSaga(),
   ]);
 }
 
 const reducer = combineReducers({
-  contributors,
+  repositories,
 });
 
 const sagaMiddleware = createSagaMiddleware();

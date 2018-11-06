@@ -1,5 +1,7 @@
 import createAction from 'redux-actions/lib/createAction';
 
+export const BASE_URL = 'https://api.github.com';
+
 export const createAsyncAction = (type, ...rest) => {
     const actionCreator = createAction(
       `${type}_REQUEST`,
