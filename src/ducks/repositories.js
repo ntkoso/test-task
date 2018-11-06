@@ -1,6 +1,5 @@
-import { takeEvery } from 'redux-saga';
-import { createAsyncAction, BASE_URL } from './utils';
-import { yellow } from 'ansi-colors';
+import { takeEvery } from 'redux-saga/effects';
+import { createAsyncAction } from './utils';
 
 /**
  * CONSTANTS
