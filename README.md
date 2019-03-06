@@ -1,7 +1,21 @@
-Вывести лист репозиториев github используя fetch, redux, redux-saga, react-jsonschema-form, styled-components и react-loader-spinner.
+
 
 ![Список репозиториев](test.png?raw=true "Тестовое задание")
 
+Шаги выполнения:
+1.  Сделать форк или клон репозитория.
+2.  Реализовать поставленную задачу.
+3.  В случае форка, скинуть ссылку на форк. В случае клона, скинуть архивированные файлы.
+
+Задача:
+Поиск репозиториев github по имени репозитория используя:
+* fetch 
+* redux
+* redux-saga
+* react-jsonschema-form
+* styled-components 
+* react-loader-spinner
+
 1.  Логика получения списка репозиториев гитхаба используя [Github v3 Search Repositories API](https://developer.github.com/v3/search/#search-repositories).
 2.  Форма с полем ввода имени репозитория и кнопкой "Найти".
-4.  Во время поиска должен быть показан индикатор загрузки.
+3.  Во время поиска должен быть показан индикатор загрузки.
